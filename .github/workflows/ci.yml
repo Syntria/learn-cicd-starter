@@ -19,5 +19,5 @@ jobs:
           go-version: "1.23.0"
 
       - name: Check Version
-        run: go -cover test ./...
+        run: go test -cover ./...
 
